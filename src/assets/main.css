@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+*{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.bg-1{
+  background: #355070;
+}
+.bg-2{
+  background: #6d597a;
+}
+.bg-3{
+  background: #b56576;
+}
+.bg-4{
+  background: #e56b6f;
+}
+.bg-5{
+  background: #eaac8b;
+}
+.bg-6{
+  background: #FFD9C3;
+}
+.bg-7{
+  background: #FBDACF;
+}
+.bg-8{
+  background: #FFE6D7;
+}
+.bg-9{
+  background: #09143C;
+}
+
+
+
+
+.fnt-1{
+  color:#355070;
+}
+.fnt-2{
+  color:#6d597a;
+}
+.fnt-3{
+  color:#b56576;
+}
+.fnt-4{
+  color:#e56b6f;
+}
+.fnt-5{
+  color:#eaac8b;
+}
+.fnt-6{
+  color:#826F8C;
+}
+
+
+
+.modalnav-nonactive{
+  transform: translateX(100%);
+  border-radius: 20px;
+  transition:
+    transform 600ms ease,
+    border-radius 600ms ease;
+}
+.modalnav-active{
+  transform: translateX(0);
+  transition:
+    transform 600ms ease,
+    border-radius 600ms ease;
+}
+.modalnav-active::after{
+  border-radius: 0px;
+}
