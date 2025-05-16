@@ -208,7 +208,7 @@
       <div class="mb-5 flex space-x-1">
         <div class="relative hover:invert hover:cursor-pointer duration-600">
           <img class="z-2" src="/contacts/contact back.png" alt="contact back">
-          <a href=""><img class="z-1 absolute inset-0 m-auto size-5 object-contain" src="/contacts/github.png" alt="github"></a>
+          <a href="https://github.com/mon1gol/Healas.lt"><img class="z-1 absolute inset-0 m-auto size-5 object-contain" src="/contacts/github.png" alt="github"></a>
         </div>
         <div class="relative hover:invert hover:cursor-pointer duration-600">
           <img class="z-2" src="/contacts/contact back.png" alt="contact back">
